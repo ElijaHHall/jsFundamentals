@@ -71,3 +71,8 @@ alert(admin);
 copied the value of the name variable to admin
 */
 
+let planetName = "Earth";
+
+let currentUser = "John";
+
+

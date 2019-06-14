@@ -69,10 +69,26 @@ let admin;
 alert(admin);
 
 copied the value of the name variable to admin
-*/
+
 
 let planetName = "Earth";
 
 let currentUser = "John";
 
 
+
+xxxx Data Types xxxx
+
+
+// alert(1/0); //gives infinity
+alert("not a number" * 2+5) //returns NaN
+
+let str = "Hello";
+let str2 = "single quotes are ok too"
+let phrase = `can embed ${str}`
+*/
+
+let name = "Elijah"
+
+alert(`Hello, ${name}!`); //single and double quotes do the same thing. backticks embed variables and expressions
+alert(`the result is ${1+2}`);

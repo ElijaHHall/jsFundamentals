@@ -96,11 +96,33 @@ alert(`the result is ${1+2}`);
 
 
 xxxx Booleans xxxx
-*/
+
 
 let nameFieldChecked = true // yes, name field has been checked
 let ageFieldChecked = false // no, age field hasn't been checked
 
 let isGreater = 4 > 1
-alert(isGreater);
+alert(isGreater); //true, (the comparison field is yes!)
+
+let age = null;
+
+// null is just a special value that means "empty" or "nothing"
+
+let x;
+
+alert(x);
+
+// the meaning of undefined is "value does not exist"
+
+
+
+let x = 123;
+x = undefined;
+alert(x);
+
+// ^ undefined
+*/
+
+
+
 

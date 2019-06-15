@@ -86,9 +86,21 @@ alert("not a number" * 2+5) //returns NaN
 let str = "Hello";
 let str2 = "single quotes are ok too"
 let phrase = `can embed ${str}`
-*/
+
 
 let name = "Elijah"
 
 alert(`Hello, ${name}!`); //single and double quotes do the same thing. backticks embed variables and expressions
 alert(`the result is ${1+2}`);
+
+
+
+xxxx Booleans xxxx
+*/
+
+let nameFieldChecked = true // yes, name field has been checked
+let ageFieldChecked = false // no, age field hasn't been checked
+
+let isGreater = 4 > 1
+alert(isGreater);
+
